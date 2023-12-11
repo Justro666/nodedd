@@ -3,8 +3,8 @@ const AWS = require("aws-sdk");
 require("aws-sdk/lib/maintenance_mode_message").suppress = true;
 
 AWS.config.update({
-  accessKeyId: "DO00EMVCJYRP8VT8ZVEH",
-  secretAccessKey: "h9agBm+4BQ7CinVt01OJ+mrGFBl4E9CCBTeiDnfzy2s",
+  accessKeyId: "",
+  secretAccessKey: "",
   endpoint: "https://sgp1.digitaloceanspaces.com",
 });
 const s3 = new AWS.S3();
